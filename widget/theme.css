@@ -6,3 +6,72 @@
 blockquote {
   @apply px-4 py-2 bg-gray-100 my-4 dark:bg-gray-900;
 }
+
+input:focus, textarea:focus {
+  outline: 2px solid #FF7E00;
+}
+
+.button {
+  border: none;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 14px;
+  vertical-align: top;
+  text-align: center;
+  -webkit-transition: all 0.2s ease-out;
+  -o-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+  will-change: transform;
+}
+
+.button-submit {
+  color: #2A2A2A;
+  background: #FFF;
+  -webkit-box-shadow: 0px 8px 20px -3px rgba(42, 42, 42, 0.12);
+  box-shadow: 0px 8px 20px -3px rgba(42, 42, 42, 0.12);
+  border-radius: 8px;
+  padding: 8px 16px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.button:focus, .button:hover {
+  color: #FF7E00;
+  text-decoration: none;
+}
+
+.button-submit:focus, .button-submit:hover {
+  -webkit-box-shadow: 0 12px 20px 0 rgba(42, 42, 42, 0.12);
+          box-shadow: 0 12px 20px 0 rgba(42, 42, 42, 0.12);
+  -webkit-transform: translateY(-3px);
+      -ms-transform: translateY(-3px);
+          transform: translateY(-3px);
+}
+
+.button:focus {
+  outline: none;
+}
+
+.button-reply {
+  color: #E67300;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.button-reply:hover, .button-reply:active, .button-reply:focus {
+  color: #2A2A2A;
+  text-decoration: underline;
+}
+
+.margin-top {
+  margin-top: 6px;
+}
+
+.message {
+  color: #2A2A2A;
+  font-size: 17px;
+}
+
+.date {
+  font-style: italic;
+}
