@@ -30,7 +30,7 @@
     {comment.parsedCreatedAt}
   </div>
 
-  <div class="mt-6 mb-4 dark:text-gray-200 message">
+  <div class="my-6 dark:text-gray-200 message">
     {@html comment.parsedContent}
   </div>
 
@@ -42,7 +42,7 @@
 
   <div>
     <button
-      class="button button-reply margin-top dark:bg-transparent dark:text-gray-100"
+      class="button button-reply dark:bg-transparent dark:text-gray-100"
       type="button"
       on:click={(_) => {
         showReplyForm = !showReplyForm
