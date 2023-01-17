@@ -5,16 +5,16 @@ export default {
 
   // comment
   email: 'Email (optional)',
-  nickname: 'Nickname',
-  reply_placeholder: 'Reply...',
+  nickname: 'Name',
+  reply_placeholder: 'Message',
   reply_btn: 'Reply',
-  sending: 'sending...',
+  sending: 'Sending...',
 
   // reply
   mod_badge: 'MOD',
-  content_is_required: 'Content is required',
-  nickname_is_required: 'Nickname is required',
+  content_is_required: 'A message is required.',
+  nickname_is_required: 'A name is required.',
 
   comment_has_been_sent:
-    'Your comment has been sent. Please wait for approval.',
+    'Your comment will be shown once it has been approved. Thanks!',
 }
